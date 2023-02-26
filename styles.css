@@ -1,0 +1,23 @@
+.ins {
+  position: relative;
+  background: rgba(255, 84, 104, 0.3);
+  border: 2px solid rgb(255, 84, 104);
+  top: 300px;
+  left: 300px;
+}
+
+.outs {
+  position: absolute;
+  background: rgba(23, 10, 108, 0.3);
+  border: 2px solid rgb(10, 218, 90);
+  top: 200px;
+  left: 300px;
+  right: 800px;
+}
+.btn {
+  position: relative;
+  background: rgba(255, 84, 104, 0.3);
+  border: 2px solid rgb(255, 84, 104);
+  top: 300px;
+  left: 350px;
+}
