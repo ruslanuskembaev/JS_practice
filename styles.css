@@ -2,22 +2,29 @@
   position: relative;
   background: rgba(255, 84, 104, 0.3);
   border: 2px solid rgb(255, 84, 104);
-  top: 300px;
-  left: 300px;
+  top: 500px;
+  left: 150px;
 }
 
+.field {
+  position: relative; /* Относительное позиционирование */
+  background: #650e51; /* Цвет фона */
+  height: 500px; /* Высота блока */
+  width: 1000px;
+  left: 50px;
+  color: #ffffff;
+}
+.gamefield {
+  position: relative; /* Относительное позиционирование */
+  background: #884864; /* Цвет фона */
+  height: 400px; /* Высота блока */
+  width: 1000px;
+  left: 50px;
+  color: #73cdcd;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .outs {
   position: absolute;
-  background: rgba(23, 10, 108, 0.3);
-  border: 2px solid rgb(10, 218, 90);
-  top: 200px;
-  left: 300px;
-  right: 800px;
-}
-.btn {
-  position: relative;
-  background: rgba(255, 84, 104, 0.3);
-  border: 2px solid rgb(255, 84, 104);
-  top: 300px;
-  left: 350px;
+  left: 200px;
 }
